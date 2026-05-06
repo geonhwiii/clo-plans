@@ -4,7 +4,7 @@ import { HomePagePlans } from './home-page.plans';
 
 export function HomePage() {
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="flex flex-1 flex-col pb-10">
       <HomePagePlans />
       <HomePageComparison />
       <HomePageFAQ />
