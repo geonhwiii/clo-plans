@@ -3,8 +3,6 @@ export type Faq = {
   value: string;
 };
 
-export const FAQ_INITIAL_COUNT = 8;
-
 export const FAQS: Faq[] = [
   { label: '설치 프로그램은 어떻게 다운로드하나요?', value: '' },
   { label: 'CLO 시스템 요구사항 (2026년 4월)', value: '' },
