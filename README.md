@@ -2,6 +2,8 @@
 
 CLO Plan 페이지를 바탕으로 코드 패턴을 보여주기 위한 프로젝트입니다.
 
+![preview](./public/preview.png)
+
 ## 기술 스택
 
 - React, TypeScript, Vite
