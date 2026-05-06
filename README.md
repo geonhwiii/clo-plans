@@ -90,13 +90,17 @@ export function HomePagePlans() {
 />
 ```
 
-### 3. 공용 상수, 유틸 및 UI는 shared에서 관리
+<br/>
+
+### 2. 공용 상수, 유틸 및 UI는 shared에서 관리
 
 공용으로 사용하는 파일을 `shared`로 분리하여 재사용 기준을 만들었습니다.
 
 오버 엔지니어링이 되지 않도록 최소한의 분리를 진행하였습니다.
 
-### 4. Comparison 구조 설계
+<br/>
+
+### 3. Comparison 구조 설계
 
 `<ComparisonGroup />`하나의 컴포넌트로 분리할 수 있었지만,
 
@@ -124,7 +128,9 @@ export function HomePagePlans() {
 </>
 ```
 
-### 5. 트레이드오프를 인지한 추상화
+<br/>
+
+### 4. 트레이드오프를 인지한 추상화
 
 `home-page.tsx`에서 바로 구조가 보이지 않는 트레이드오프를 인지하고 추상화를 진행하였습니다.
 
