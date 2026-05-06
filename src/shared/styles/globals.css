@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+:root {
+  --global-header-height: 57px;
+  --global-layout-width: 964px;
+
+  --color-bg-footer: rgb(35, 35, 40, 1);
+}
+
+@layer base {
+  body {
+    @apply bg-white text-black;
+  }
+}

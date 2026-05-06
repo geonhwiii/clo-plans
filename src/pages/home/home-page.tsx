@@ -1,9 +1,3 @@
 export function HomePage() {
-  return (
-    <div>
-      <div>Header</div>
-      <div>Main</div>
-      <div>Footer</div>
-    </div>
-  );
+  return <div className="flex-1">Main</div>;
 }
