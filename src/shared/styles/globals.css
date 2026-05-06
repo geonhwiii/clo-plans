@@ -5,6 +5,7 @@
   --global-layout-width: 964px;
 
   --color-bg-footer: rgb(35, 35, 40, 1);
+  --color-primary: rgb(64 169 255 / 1);
 }
 
 @layer base {

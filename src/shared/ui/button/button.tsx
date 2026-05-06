@@ -1,3 +1,7 @@
-export function Button() {
-  return <button className="rounded-md bg-blue-500 p-2 text-white">Click me</button>;
+export function Button({ children }: { children: React.ReactNode }) {
+  return (
+    <button className="min-w-40 rounded-md bg-(--color-primary) px-6 py-4 text-white">
+      {children}
+    </button>
+  );
 }
